@@ -24,12 +24,12 @@ public final class GridItemCell: UICollectionViewCell {
   required init?(coder: NSCoder) {
     super.init(coder: coder)
 
-    confugureGestures()
+    configureGestures()
   }
 
-  private func confugureGestures() {
-    let pinchGesture = UIPinchGestureRecognizer(target: self, action:#selector(pinchRecognized(_:)))
-    contentView.addGestureRecognizer(pinchGesture)
+  private func configureGestures() {
+    let pinch = UIPinchGestureRecognizer(target: self, action:#selector(pinchRecognized(_:)))
+    contentView.addGestureRecognizer(pinch)
 
     let singleTap = UITapGestureRecognizer(target: self, action:#selector(singleTapGestureRecognized(_:)))
     singleTap.numberOfTapsRequired = 1

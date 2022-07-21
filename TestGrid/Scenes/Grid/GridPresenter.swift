@@ -1,5 +1,5 @@
 //
-//  CoolPresenter.swift
+//  GridPresenter.swift
 //  TestGrid
 //
 //  Created by Illya Kuznietsov on 15.07.2022.
@@ -7,22 +7,22 @@
 
 import UIKit
 
-public final class CoolPresenter: NSObject {
+public final class GridPresenter: NSObject {
 
-  public weak var view: CoolPresenting!
+  public weak var view: GridPresenting!
 
-  private let interactor: CoolInteraction
-  private let coordinator: CoolCoordination
+  private let interactor: GridInteraction
+  private let coordinator: GridCoordination
   private var gridDisplay: GridDisplay = .empty()
 
-  public init(coordinator: CoolCoordination, interactor: CoolInteraction) {
+  public init(coordinator: GridCoordination, interactor: GridInteraction) {
     self.interactor = interactor
     self.coordinator = coordinator
   }
 
   public func onViewLoaded(columns: Int) {
-    let coolItems = interactor.coolItems()
-    let gridIRows = coolItems.chunked(into: columns).map { GridRowDisplay(gridItems: $0) }
+    let gridItems = interactor.gridItems()
+    let gridIRows = gridItems.chunked(into: columns).map { GridRowDisplay(gridItems: $0) }
     gridDisplay = GridDisplay(gridRows: gridIRows, columns: columns)
     view.renderGridLayout(with: gridDisplay)
   }
@@ -30,7 +30,7 @@ public final class CoolPresenter: NSObject {
 
 // MARK: - UICollectionViewDataSource
 
-extension CoolPresenter: UICollectionViewDataSource {
+extension GridPresenter: UICollectionViewDataSource {
 
   public func collectionView(
     _ collectionView: UICollectionView,
@@ -70,8 +70,8 @@ extension CoolPresenter: UICollectionViewDataSource {
   }
 }
 
-// MARK: - CoolPresenting
+// MARK: - GridPresenting
 
-public protocol CoolPresenting: AnyObject {
+public protocol GridPresenting: AnyObject {
   func renderGridLayout(with grid: GridDisplay)
 }

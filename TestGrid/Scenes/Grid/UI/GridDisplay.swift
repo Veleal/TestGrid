@@ -33,15 +33,15 @@ public final class GridDisplay {
     rowHeights[index] = max(Constants.minScale, rowHeights[index] * min(scale, Constants.maxScaleStep))
   }
 
+  public static func empty() -> GridDisplay {
+    return GridDisplay()
+  }
+
   private init() {
     gridRows = []
     rowHeights = []
     columnWidths = []
     maxScale = 0
-  }
-
-  public static func empty() -> GridDisplay {
-    return GridDisplay()
   }
 }
 

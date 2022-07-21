@@ -12,18 +12,18 @@
 		AD3FDD4A2887000B009F8D8E /* Int+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FDD492887000B009F8D8E /* Int+Additions.swift */; };
 		AD400D17288162E700E86C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D16288162E700E86C16 /* AppDelegate.swift */; };
 		AD400D19288162E700E86C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D18288162E700E86C16 /* SceneDelegate.swift */; };
-		AD400D1B288162E700E86C16 /* CoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D1A288162E700E86C16 /* CoolViewController.swift */; };
+		AD400D1B288162E700E86C16 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D1A288162E700E86C16 /* GridViewController.swift */; };
 		AD400D1E288162E700E86C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD400D1C288162E700E86C16 /* Main.storyboard */; };
 		AD400D20288162E800E86C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD400D1F288162E800E86C16 /* Assets.xcassets */; };
 		AD400D23288162E800E86C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD400D21288162E800E86C16 /* LaunchScreen.storyboard */; };
 		AD400D2B2881712300E86C16 /* GridCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D2A2881712300E86C16 /* GridCollectionView.swift */; };
 		AD400D302881723900E86C16 /* GridItemDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D2F2881723900E86C16 /* GridItemDisplay.swift */; };
-		AD400D32288173AC00E86C16 /* CoolPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D31288173AC00E86C16 /* CoolPresenter.swift */; };
-		AD400D34288173BE00E86C16 /* CoolInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D33288173BE00E86C16 /* CoolInteractor.swift */; };
-		AD400D382881755D00E86C16 /* CoolListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D372881755D00E86C16 /* CoolListService.swift */; };
+		AD400D32288173AC00E86C16 /* GridPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D31288173AC00E86C16 /* GridPresenter.swift */; };
+		AD400D34288173BE00E86C16 /* GridInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D33288173BE00E86C16 /* GridInteractor.swift */; };
+		AD400D382881755D00E86C16 /* GridListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D372881755D00E86C16 /* GridListService.swift */; };
 		AD400D3C288175AF00E86C16 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D3B288175AF00E86C16 /* Shared.swift */; };
 		AD400D3E288175C700E86C16 /* Shareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D3D288175C700E86C16 /* Shareable.swift */; };
-		AD400D402881832000E86C16 /* CoolCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D3F2881832000E86C16 /* CoolCoordinator.swift */; };
+		AD400D402881832000E86C16 /* GridCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D3F2881832000E86C16 /* GridCoordinator.swift */; };
 		AD400D42288188D500E86C16 /* GridDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D41288188D500E86C16 /* GridDisplay.swift */; };
 		AD400D442881B6E100E86C16 /* GridItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D432881B6E100E86C16 /* GridItemCell.swift */; };
 		AD400D472881BB8900E86C16 /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD400D462881BB8900E86C16 /* UICollectionView+Additions.swift */; };
@@ -65,19 +65,19 @@
 		AD400D13288162E700E86C16 /* TestGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD400D16288162E700E86C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD400D18288162E700E86C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD400D1A288162E700E86C16 /* CoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		AD400D1A288162E700E86C16 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		AD400D1D288162E700E86C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD400D1F288162E800E86C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD400D22288162E800E86C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD400D24288162E800E86C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD400D2A2881712300E86C16 /* GridCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionView.swift; sourceTree = "<group>"; };
 		AD400D2F2881723900E86C16 /* GridItemDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemDisplay.swift; sourceTree = "<group>"; };
-		AD400D31288173AC00E86C16 /* CoolPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolPresenter.swift; sourceTree = "<group>"; };
-		AD400D33288173BE00E86C16 /* CoolInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolInteractor.swift; sourceTree = "<group>"; };
-		AD400D372881755D00E86C16 /* CoolListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolListService.swift; sourceTree = "<group>"; };
+		AD400D31288173AC00E86C16 /* GridPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPresenter.swift; sourceTree = "<group>"; };
+		AD400D33288173BE00E86C16 /* GridInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridInteractor.swift; sourceTree = "<group>"; };
+		AD400D372881755D00E86C16 /* GridListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridListService.swift; sourceTree = "<group>"; };
 		AD400D3B288175AF00E86C16 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		AD400D3D288175C700E86C16 /* Shareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shareable.swift; sourceTree = "<group>"; };
-		AD400D3F2881832000E86C16 /* CoolCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolCoordinator.swift; sourceTree = "<group>"; };
+		AD400D3F2881832000E86C16 /* GridCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCoordinator.swift; sourceTree = "<group>"; };
 		AD400D41288188D500E86C16 /* GridDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDisplay.swift; sourceTree = "<group>"; };
 		AD400D432881B6E100E86C16 /* GridItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemCell.swift; sourceTree = "<group>"; };
 		AD400D462881BB8900E86C16 /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
@@ -176,10 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				AD400D2E2881722200E86C16 /* UI */,
-				AD400D1A288162E700E86C16 /* CoolViewController.swift */,
-				AD400D31288173AC00E86C16 /* CoolPresenter.swift */,
-				AD400D33288173BE00E86C16 /* CoolInteractor.swift */,
-				AD400D3F2881832000E86C16 /* CoolCoordinator.swift */,
+				AD400D1A288162E700E86C16 /* GridViewController.swift */,
+				AD400D31288173AC00E86C16 /* GridPresenter.swift */,
+				AD400D33288173BE00E86C16 /* GridInteractor.swift */,
+				AD400D3F2881832000E86C16 /* GridCoordinator.swift */,
 			);
 			path = Grid;
 			sourceTree = "<group>";
@@ -200,17 +200,17 @@
 		AD400D352881751B00E86C16 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				AD400D362881754800E86C16 /* CoolList */,
+				AD400D362881754800E86C16 /* GridList */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		AD400D362881754800E86C16 /* CoolList */ = {
+		AD400D362881754800E86C16 /* GridList */ = {
 			isa = PBXGroup;
 			children = (
-				AD400D372881755D00E86C16 /* CoolListService.swift */,
+				AD400D372881755D00E86C16 /* GridListService.swift */,
 			);
-			path = CoolList;
+			path = GridList;
 			sourceTree = "<group>";
 		};
 		AD400D392881758300E86C16 /* Common */ = {
@@ -416,19 +416,19 @@
 				AD400D42288188D500E86C16 /* GridDisplay.swift in Sources */,
 				ADE9AB4A28896294001489B7 /* Orientation.swift in Sources */,
 				AD400D2B2881712300E86C16 /* GridCollectionView.swift in Sources */,
-				AD400D1B288162E700E86C16 /* CoolViewController.swift in Sources */,
+				AD400D1B288162E700E86C16 /* GridViewController.swift in Sources */,
 				AD3FDD4A2887000B009F8D8E /* Int+Additions.swift in Sources */,
-				AD400D32288173AC00E86C16 /* CoolPresenter.swift in Sources */,
-				AD400D382881755D00E86C16 /* CoolListService.swift in Sources */,
+				AD400D32288173AC00E86C16 /* GridPresenter.swift in Sources */,
+				AD400D382881755D00E86C16 /* GridListService.swift in Sources */,
 				AD400D17288162E700E86C16 /* AppDelegate.swift in Sources */,
 				ADF7A0A928855DCC005B89D4 /* String+Additions.swift in Sources */,
 				ADF7A0A328855C48005B89D4 /* ViewController.swift in Sources */,
-				AD400D34288173BE00E86C16 /* CoolInteractor.swift in Sources */,
+				AD400D34288173BE00E86C16 /* GridInteractor.swift in Sources */,
 				ADF7A0A528855CF8005B89D4 /* Coordinator.swift in Sources */,
 				AD3FDD442886B8BB009F8D8E /* GridRowDisplay.swift in Sources */,
 				AD88D03E2885840100992E35 /* UIPinchGestureRecognizer+Additions.swift in Sources */,
 				AD400D3C288175AF00E86C16 /* Shared.swift in Sources */,
-				AD400D402881832000E86C16 /* CoolCoordinator.swift in Sources */,
+				AD400D402881832000E86C16 /* GridCoordinator.swift in Sources */,
 				AD400D4B2881D53E00E86C16 /* Array+Additions.swift in Sources */,
 				AD400D442881B6E100E86C16 /* GridItemCell.swift in Sources */,
 				ADF7A0A728855D54005B89D4 /* UIStoryboard+Additions.swift in Sources */,

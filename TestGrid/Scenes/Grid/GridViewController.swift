@@ -1,5 +1,5 @@
 //
-//  CoolViewController.swift
+//  GridViewController.swift
 //  TestGrid
 //
 //  Created by Illya Kuznietsov on 15.07.2022.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-public final class CoolViewController: UIViewController, ViewController {
+public final class GridViewController: UIViewController, ViewController {
   @IBOutlet private weak var gridCollectionView: GridCollectionView!
 
   public static let storyboardName: UIStoryboard.Name = .main
 
-  public var presenter: CoolPresenter! {
+  public var presenter: GridPresenter! {
     didSet {
       presenter?.view = self
     }
@@ -26,7 +26,7 @@ public final class CoolViewController: UIViewController, ViewController {
   }
 }
 
-extension CoolViewController: CoolPresenting {
+extension GridViewController: GridPresenting {
   public func renderGridLayout(with grid: GridDisplay) {
     gridCollectionView.renderGridLayout(with: grid)
   }
