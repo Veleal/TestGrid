@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ovj-3b-DNJ" customClass="GridItemCell" customModule="TestGrid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="168" height="123"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="a1B-f6-xRS">
+                <rect key="frame" x="0.0" y="0.0" width="168" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77G-Pp-jb8">
+                        <rect key="frame" x="1" y="1" width="166" height="121"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="77G-Pp-jb8" secondAttribute="trailing" constant="1" id="Wpr-c1-XhI"/>
+                    <constraint firstItem="77G-Pp-jb8" firstAttribute="leading" secondItem="a1B-f6-xRS" secondAttribute="leading" constant="1" id="XGw-vd-0tQ"/>
+                    <constraint firstItem="77G-Pp-jb8" firstAttribute="top" secondItem="a1B-f6-xRS" secondAttribute="top" constant="1" id="foG-u7-Rnq"/>
+                    <constraint firstAttribute="bottom" secondItem="77G-Pp-jb8" secondAttribute="bottom" constant="1" id="tqw-cs-hQT"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="168" height="123"/>
+            <connections>
+                <outlet property="contentLabel" destination="77G-Pp-jb8" id="39H-DI-g9J"/>
+            </connections>
+            <point key="canvasLocation" x="201.44927536231884" y="-266.85267857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>
